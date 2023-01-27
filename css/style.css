@@ -29,11 +29,13 @@ header h2{
     padding: 5px;
     text-align: center;
     margin-top: 12px;
+    font-family: cursive;
 }
 
 header h1{
     height: 450px;
     font-size: 4em;
+    font-family: cursive;
 }
 
 nav div{
@@ -45,6 +47,7 @@ nav div a{
     padding-top: 40px;
     padding-bottom: 40px;
     text-decoration: none;
+    font-family: cursive;
 }
 
 main{
@@ -58,6 +61,7 @@ main{
 main article{
     padding-top: 40px;
     padding-bottom: 40px;
+    font-family: cursive;
 }
 
 main img{
