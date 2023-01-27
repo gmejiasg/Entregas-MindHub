@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image: url("../imagenes/design2_image1.jpg");
+    background-position: center;
+    background-position-y: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -158px;
+    height: 500px;
+    position: relative;
+    top: 92px;
+}
+
+header img{
+    border-color: #000;
+    border-style: solid;
+    margin-left: 56px;
+    margin-top: 419px;
+    background-color: #fff;
+    width: 154px;
+}
+
+header h2{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-top: 12px;
+    position: relative;
+    top: 75%;
+}
+
+header h1{
+    font-size: 4em;
+    position: relative;
+    top: -90px;
+}
+
+nav div{
+    position: absolute;
+    left: 1442px;
+    top: 75px;
+}
+
+nav div a{
+    padding: 6px 15px;
+    background-color: dodgerblue;
+    border: solid 2px black;
+    text-decoration: none;
+    margin: 0 7px;
+    color: #fff;
+}
+
+nav div a:hover{
+    background-color: darkcyan;
+}
