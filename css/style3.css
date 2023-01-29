@@ -20,8 +20,8 @@ header h2{
     margin: 0px 0px 0px 20px;
     padding: 17px 34px;
     display: inline-block;
-    color: #fff;
-    background-color: #000;
+    color: #F6DD2E;
+    background-color: #c24d35;
     border-radius: 0 0px 13px 13px;
     text-shadow: 1px 1px 2px black;
 }
@@ -31,7 +31,7 @@ header h1{
     font-size: 2em;
     font-family: cursive;
     color: transparent;
-    border:solid #000
+    border:solid #c24d35;
 }
 
 header img{
@@ -52,19 +52,19 @@ nav div{
 }
 
 nav div a{
-    padding: 8px 15px;
+    padding: 5px 15px;
     text-decoration: none;
     margin: 0 7px;
-    color: #fff;
+    color: #FFF;
     font-family: cursive;
-    background-color: #0000008a;
+    background-color: #c24d35;
     border-radius: 0 0px 13px 13px;
-    text-shadow: 1px 1px 2px black;
-    
+    border: solid #c24d35;
 }
 
 nav div a:hover{
-    background-color: #000;
+    background-color: #F6DD2E;
+    color: #c24d35;
 }
 
 main{
@@ -108,12 +108,13 @@ main .contact{
 article h3 {
     position: relative;
     top: -40px;
-    background-color: #000;
+    background-color: #5fa199;
     color: #fff;
     width: 173px;
     left: -30px;
     text-align: center;
     padding: 6px;
     border-radius: 0px 52px 0px 52px;
+    text-shadow: 1px 1px 2px black;
 
 }
