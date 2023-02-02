@@ -14,9 +14,10 @@ header{
     background-repeat: no-repeat;
     background-position-y: -158px;
     height: 280px;
+    border: solid #c24d35;
 }
 
-header h2{
+nav h2{
     margin: 0px 0px 0px 20px;
     padding: 17px 34px;
     display: inline-block;
@@ -26,13 +27,13 @@ header h2{
     text-shadow: 1px 1px 2px black;
 }
 
-header h1{
+/* header h1{
     height: 242px;
     font-size: 2em;
     font-family: cursive;
     color: transparent;
     border:solid #c24d35;
-}
+} */
 
 header img{
 
@@ -46,9 +47,9 @@ header img{
 }
 
 nav div{
-    position: absolute;
-    left: 1499px;
-    top: 247px;
+    display: flex;
+    justify-content: end;
+    margin-top: -65px;
 }
 
 nav div a{
