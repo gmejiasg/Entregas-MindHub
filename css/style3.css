@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER & IMAGE */
 
 header{
     background-image: url(../imagenes/fondo3.jpeg);
@@ -15,7 +16,18 @@ header{
     background-position-y: -158px;
     height: 280px;
     border: solid #c24d35;
+    text-align: center;
 }
+
+header img{
+    
+    margin-top: 30px;
+    background-color: #0000008a;
+    width: 199px;
+    border-radius: 32px;
+}
+
+/* BARRA DE NAVEGACION */
 
 nav h2{
     margin: 0px 0px 0px 20px;
@@ -27,29 +39,22 @@ nav h2{
     text-shadow: 1px 1px 2px black;
 }
 
-/* header h1{
-    height: 242px;
-    font-size: 2em;
-    font-family: cursive;
-    color: transparent;
-    border:solid #c24d35;
-} */
-
-header img{
-
-    margin-top: -210px;
-    background-color: #0000008a;
-    width: 199px;
-    position: absolute;
-    left: 43%;
-    border-radius: 32px;
-    top: 228px;
+nav h6{
+    margin-left: 28px;
+    color: #777;
 }
+
 
 nav div{
     display: flex;
     justify-content: end;
     margin-top: -65px;
+}
+
+nav  div.rulesnav{
+    display: flex;
+    justify-content: end;
+    margin-top: -79px;
 }
 
 nav div a{
@@ -64,40 +69,45 @@ nav div a{
 }
 
 nav div a:hover{
-    background-color: #F6DD2E;
-    color: #c24d35;
+    background-color: #5fa199;
+    color: #fff;
 }
 
+nav div a.select{
+    background-color: #5fa199;
+    color: #fff;
+    border: solid #fff0;
+    margin-top: 2px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* MAIN CONTAINER */
+
 main{
-    display: block;
-    position: relative;
-    left: 97px;
-    top: 91px;
+    display: flex;
+    margin: 4rem 2rem 0rem 2rem;
 }
+
 main div{
-    float: left;
     width: 60%;
-}
-main.rules div, main.game div{
-    width: 95%;
 }
 
 
 main article{
-    padding-top: 40px;
-    padding-bottom: 40px;
     font-family: cursive;
     font-size: large;
     background-color: #b9b9b98a;
     margin-bottom: 33px;
-    padding-left: 30px;
     border-radius: 0px 52px 0px 52px;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem 2rem 2rem;
 }
 
 main figure{
-    width: 39%;
-    float: left;
+    width: 40%;
 }
+
 main img{
     border-radius: 35px; 
     width: 98%;
@@ -105,30 +115,95 @@ main img{
     margin-left: 2%;
 }
 
-main div.contact{
+article h3 {
+    background-color: #5fa199;
+    color: #fff;
+    min-width: 173px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+    border-radius: 0px 52px 0px 52px;
+    text-shadow: 1px 1px 2px black;
+    width: 27%;
+    margin-left: -2rem;
+    margin-bottom: 1rem;
+}
+
+div article ol {
+    list-style-position: inside;
+} 
+
+/* CUSTOM STYLE IN PAGE */
+
+main.contact div{
     font-size: 24px;
     margin-top: 87px;
     width: 40%;
 } 
+
+main.rules div, main.game div{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+main.game div p{
+    margin: 8px 0px;
+}
+
+main.game{
+    flex-direction: column;
+}
+
+main.game div span{
+    color: #777;
+}
 
 main.game div table tbody{
     text-align: center;
 }
 
 main.game div table{
-    width: 83%;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -2em;
 }
 
-article h3 {
-    position: relative;
-    top: -40px;
-    background-color: #5fa199;
-    color: #fff;
-    width: 173px;
-    left: -30px;
-    text-align: center;
-    padding: 6px;
-    border-radius: 0px 52px 0px 52px;
-    text-shadow: 1px 1px 2px black;
+main.game div table caption{
+    font-size: 2em;    
+}
 
+main.game div table td, main.game div table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+main.game div table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+main.game div table tr:hover {
+    background-color: #ddd;
+}
+
+main.game div table th {
+    background-color: #5FA199;
+    color: white;
+}
+
+main.game div table tr{
+    border-bottom: 1px solid #595959;
+}
+
+main.game div.contact-game{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+a.email{
+    text-decoration: none;
+    color: #000;
+}
+a.email:hover{
+    text-decoration: none;
+    color: #5fa199;
 }
