@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
 }
 
 /* HEADER & IMAGE */
@@ -48,13 +49,11 @@ nav h6{
 nav div{
     display: flex;
     justify-content: end;
-    margin-top: -65px;
+    margin-top: -69px;
 }
 
 nav  div.rulesnav{
-    display: flex;
-    justify-content: end;
-    margin-top: -79px;
+     margin-top: -84px;
 }
 
 nav div a{
@@ -62,7 +61,6 @@ nav div a{
     text-decoration: none;
     margin: 0 7px;
     color: #FFF;
-    font-family: cursive;
     background-color: #c24d35;
     border-radius: 0 0px 13px 13px;
     border: solid #c24d35;
@@ -94,7 +92,6 @@ main div{
 
 
 main article{
-    font-family: cursive;
     font-size: large;
     background-color: #b9b9b98a;
     margin-bottom: 33px;
