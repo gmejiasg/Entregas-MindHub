@@ -16,7 +16,7 @@
     </header>
 
     <nav>
-        <h2>Registration</h2>
+        <h2>Registration Form</h2>
         
         <div>
             <a href="./index.html">Home</a>
@@ -27,8 +27,8 @@
             <a class="select" href="#">Registration</a>
         </div>
     </nav>
-    <main>
-        <h1>Registration Form</h1>
+    <main class="registration">
+        <!-- <h1>Registration Form</h1> -->
         <form action="showdata.html" method="GET">
             <fieldset id="basicos">
                 <label>
@@ -56,45 +56,47 @@
                     <span> <b>Birth Date(mm/dd/yyyy):</b> </span>
                     <input type="date" name="Birth Date">
                 </label>
-                <label>
+                <div class="gender">
                     <span><b>Gender:</b></span>
-                <label>
-                    <span>Female</span>
-                    <input type="checkbox" name="Gender" value="Female">
-                </label>
-                <label>  
-                    <span>Male</span>
-                    <input type="checkbox" name="Gender" value="Male">   
-                </label>
-                <label>
+                
+                    <label>
+                        <span>Female</span>
+                        <input type="checkbox" name="Gender" value="Female">
+                    </label>
+                    <label>  
+                        <span>Male</span>
+                        <input type="checkbox" name="Gender" value="Male">   
+                    </label>
+                </div>
+                <div class="grade">
+
                     <span><b>Grade:</b></span>
-    
-                </label>
-                <label>
-                    <input type="checkbox" name="Grade" value="Pre-School">
-                    <span>Pre-School</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="Grade" value="1st">
-                    <span>1st</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="Grade" value="2nd">
-                    <span>2nd</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="Grade" value="3rd">
-                    <span>3rd</span>
-    
-                </label>
-                <label>
-                    <input type="checkbox" name="Grade" value="4th">
-                    <span>4th</span>
-                </label>
-                <label>
-                    <input type="checkbox" name="Grade" value="5th">
-                    <span>5th</span>
-            </label>
+                    <label>
+                        <input type="checkbox" name="Grade" value="Pre-School">
+                        <span>Pre-School</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Grade" value="1st">
+                        <span>1st</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Grade" value="2nd">
+                        <span>2nd</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Grade" value="3rd">
+                        <span>3rd</span>
+        
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Grade" value="4th">
+                        <span>4th</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Grade" value="5th">
+                        <span>5th</span>
+                    </label>
+                </div>
             </fieldset>
     
             <fieldset id="Schools">
