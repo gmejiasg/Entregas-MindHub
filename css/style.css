@@ -177,10 +177,6 @@ main.game div table tr:nth-child(even){
     background-color: #f2f2f2;
 }
 
-main.game div table tr:hover {
-    background-color: #ddd;
-}
-
 main.game div table th {
     background-color: #5FA199;
     color: white;
@@ -203,4 +199,107 @@ a.email{
 a.email:hover{
     text-decoration: none;
     color: #5fa199;
+}
+
+/* estilos registration */
+
+main.registration{
+    flex-direction: column;
+    width: 60%;
+    margin: 6rem auto;
+}
+
+
+fieldset {
+    display: flex;
+    flex-flow: wrap;
+    border: none;
+    border-bottom: solid #5fa199;
+    padding: 0px 15px;
+    margin: 15px 0px;
+}
+
+fieldset label {
+  width: 50%;
+  margin: 8px 0px;
+}
+
+fieldset h5{
+    width: 100%;
+}
+
+fieldset label input{
+    min-width: 63%;
+    border: none;
+    border-bottom: solid 1px;
+}
+
+
+fieldset > div > label, fieldset > div > label > span, fieldset > div > label > input {
+    min-width: 0%;
+}
+
+main > form > fieldset > div {
+    width: 50%;
+    margin: 8px 0px;
+}
+
+fieldset label input[type=checkbox], [type=radio]{
+    min-width: 0%;
+}
+
+main form input[type=submit]{
+    width: 100%;
+    border-radius: 0;
+    background-color: #5fa199;
+    border: none;
+    color: #fff;
+    padding: 6px;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+main form input[type=submit]:hover{
+    background-color: #c24d35;;
+}
+
+fieldset#Permission{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* mapas */
+
+main div iframe{
+    width: 100%;
+    height: 125%;
+    height: 44rem;
+    margin: 3rem 0rem;
+}
+
+div.mapas{
+    display: flex;
+    flex-direction: column;
+}
+div.mapas div{
+    text-align: center;
+}
+td a img{
+    width: 2.5rem;
+}
+
+main.game div table tr td:last-child{
+    padding: 0px;
+}
+
+div.mapas div a{
+    text-decoration: none;
+    background-color: #5fa199;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+    padding: 1rem;
+    border-radius:1rem ;
 }
