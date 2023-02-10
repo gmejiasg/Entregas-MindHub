@@ -2,82 +2,205 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
 }
 
+/* HEADER & IMAGE */
 
 header{
-    background-image: url("../imagenes/design1_image1.jpg");
+    background-image: url(../imagenes/fondo3.jpeg);
+    background-color: #fff;
     background-position: center;
     background-position-y: center;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: -158px;
-    height: 500px;
+    height: 280px;
+    border: solid #c24d35;
+    text-align: center;
 }
 
 header img{
-    border-color: #000;
-    border-style: solid;
-    margin-left: 90%;
-    margin-top: -73px;
-    background-color: #fff;
+    
+    margin-top: 30px;
+    background-color: #0000008a;
+    width: 199px;
+    border-radius: 32px;
 }
 
-header h2{
-    background-color: #000;
-    color: #fff;
-    padding: 5px;
-    text-align: center;
-    margin-top: 12px;
-    font-family: cursive;
+/* BARRA DE NAVEGACION */
+
+nav h2{
+    margin: 0px 0px 0px 20px;
+    padding: 17px 34px;
+    display: inline-block;
+    color: #F6DD2E;
+    background-color: #c24d35;
+    border-radius: 0 0px 13px 13px;
+    text-shadow: 1px 1px 2px black;
 }
 
-header h1{
-    height: 450px;
-    font-size: 4em;
-    font-family: cursive;
+nav h6{
+    margin-left: 28px;
+    color: #777;
 }
+
 
 nav div{
-    display: inline-grid;
-    font-size: 30px;
+    display: flex;
+    justify-content: end;
+    margin-top: -69px;
+}
+
+nav  div.rulesnav{
+     margin-top: -84px;
 }
 
 nav div a{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 5px 15px;
     text-decoration: none;
-    font-family: cursive;
+    margin: 0 7px;
+    color: #FFF;
+    background-color: #c24d35;
+    border-radius: 0 0px 13px 13px;
+    border: solid #c24d35;
 }
+
+nav div a:hover{
+    background-color: #5fa199;
+    color: #fff;
+}
+
+nav div a.select{
+    background-color: #5fa199;
+    color: #fff;
+    border: solid #fff0;
+    margin-top: 2px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* MAIN CONTAINER */
 
 main{
-    display: inline-block;
-    float: left;
-    position: absolute;
-    left: 543px;
-    top: 543px;
+    display: flex;
+    margin: 4rem 2rem 0rem 2rem;
 }
 
+main div{
+    width: 60%;
+}
+
+
 main article{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: cursive;
+    font-size: large;
+    background-color: #b9b9b98a;
+    margin-bottom: 33px;
+    border-radius: 0px 52px 0px 52px;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+main figure{
+    width: 40%;
 }
 
 main img{
-    position: absolute;
-    left: 582px;
-    top: 66px;
-    right: 142;
-    filter: drop-shadow;
-    border-radius: 35px;
+    border-radius: 35px; 
+    width: 98%;
+    margin-top: 5%;
+    margin-left: 2%;
 }
 
-main.about img{
-    position: static;
+article h3 {
+    background-color: #5fa199;
+    color: #fff;
+    min-width: 173px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+    border-radius: 0px 52px 0px 52px;
+    text-shadow: 1px 1px 2px black;
+    width: 27%;
+    margin-left: -2rem;
+    margin-bottom: 1rem;
 }
 
-main .contact{
+div article ol {
+    list-style-position: inside;
+} 
+
+/* CUSTOM STYLE IN PAGE */
+
+main.contact div{
     font-size: 24px;
     margin-top: 87px;
+    width: 40%;
+} 
+
+main.rules div, main.game div{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+main.game div p{
+    margin: 8px 0px;
+}
+
+main.game{
+    flex-direction: column;
+}
+
+main.game div span{
+    color: #777;
+}
+
+main.game div table tbody{
+    text-align: center;
+}
+
+main.game div table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: -2em;
+}
+
+main.game div table caption{
+    font-size: 2em;    
+}
+
+main.game div table td, main.game div table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+main.game div table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+main.game div table tr:hover {
+    background-color: #ddd;
+}
+
+main.game div table th {
+    background-color: #5FA199;
+    color: white;
+}
+
+main.game div table tr{
+    border-bottom: 1px solid #595959;
+}
+
+main.game div.contact-game{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+a.email{
+    text-decoration: none;
+    color: #000;
+}
+a.email:hover{
+    text-decoration: none;
+    color: #5fa199;
 }
